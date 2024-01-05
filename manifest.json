@@ -1,0 +1,22 @@
+  {
+    "name": "Downloads Organiser",
+    "version": "1.0",
+    "description": "Keep your Downloads folder clean.",
+    "manifest_version": 2,
+    "permissions": ["downloads"],
+    "icons": { 
+        "16": "images/Downloads_extension_16.png",
+        "48": "images/Downloads_extension_48.png",
+       "128": "images/Downloads_extension_128.png"
+     },
+    "browser_action": {
+    "default_title": "Working !!",
+    "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["organiser.js"],
+        "persistent": false
+      }
+    
+  }
+  
